@@ -1,0 +1,8 @@
+<body>
+<script>
+str=prompt("BBOD MUNYT:","0")
+x=parseInt(str)
+sec=x*60
+alert("Kol-vo sec: "+sec)
+</script>
+</body>
