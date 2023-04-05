@@ -1,0 +1,12 @@
+<html>
+<body>
+<script>
+str=prompt("BBOD x:","0")
+x=parseInt(str)
+str=prompt("BBOD y:","0")
+y=parseInt(str)
+z=((7*x)/(y**3+4))-2*Math.sqrt(x+Math.sqrt(Math.abs(y)))
+alert(z)
+</script>
+</body>
+</html>

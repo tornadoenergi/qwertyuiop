@@ -1,0 +1,29 @@
+<html>
+<head>
+ <title>Color Change Button</title>
+ <style>
+  #text {
+   color: green;
+  }
+ </style>
+</head>
+<body>
+ <p id="text">Зелёный цвет для изменения его на красный.</p>
+ <button onclick="changeColor()">Red</button>
+
+ <script>
+  function changeColor() {
+   var text = document.getElementById("text");
+   var button = document.getElementsByTagName("button")[0];
+
+   if (text.style.color === "green") {
+    text.style.color = "red";
+    button.innerHTML = "Green";
+   } else {
+    text.style.color = "green";
+    button.innerHTML = "Red";
+   }
+  }
+ </script>
+</body>
+</html>

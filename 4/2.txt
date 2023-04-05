@@ -1,0 +1,14 @@
+<html>
+<body>
+<script>
+arr= new Array(10);s='';
+for (i=0; i<arr.lenght; i++)
+{
+y=Math.random()*10+10;
+arr[i]=Math.floor(y);
+if (arr[i]%10==0) s=s+' '+i;
+}
+alert (s)
+</script>
+</body>
+</html>

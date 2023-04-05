@@ -1,0 +1,15 @@
+<html>
+<body>
+<script>
+mm=new Array ('€нварь','февраль','март','апрель',
+'май','июнь','июль','август','сент€брь','окт€брь','но€брь','декабрь')
+dnn=new Array('вс','пн','вт','ср','чт','пт','сб')
+td=new Date()
+d=td.getDate();
+m=td.getMonth();
+g=td.getFullYear();
+dn=td.getDay();
+alert(d+' '+mm[m]+' '+g+' '+dnn[dn])
+</script>
+</body>
+</html>

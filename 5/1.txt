@@ -1,0 +1,28 @@
+<head>
+<script>
+function poisk(mass,n)
+{
+for(i=0; i<n; i++)
+{
+t=-1
+if (mass[i]=='*') t=i
+}
+if (t>=0) alert(mass[t]+' '+t)
+else alert('* в массиве нет')
+}
+</script>
+</head>
+<body>
+<script>
+str=prompt("Введите кол-во символов в массиве:" ,"0")
+n=parseInt(str)
+mass=new Array
+for (i=0;i<n;i++)
+{
+k=i+1
+str=prompt("Введите "+ k +" символ массива:", " ")
+mass[i]=str
+}
+</script>
+<input type="button" value="Найти" onclick="poisk(mass,n)"
+</body>
